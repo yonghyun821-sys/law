@@ -27,11 +27,11 @@
 law-tracking-db/
 ├─ database/
 │  ├─ schema.sql
-│  └─ seed\\\_initial.sql
+│  └─ seed_initial.sql
 ├─ scripts/
-│  └─ load\\\_full\\\_text.py
+│  └─ load_full_text.py
 ├─ docs/
-│  └─ DB\\\_초기적재\\\_정리본.xlsx
+│  └─ DB_초기적재_정리본.xlsx
 ├─ .env.example
 ├─ .gitignore
 ├─ requirements.txt
@@ -43,18 +43,18 @@ law-tracking-db/
 MySQL Workbench에서 다음 순서로 실행합니다.
 
 1. `database/schema.sql`
-2. `database/seed\\\_initial.sql`
+2. `database/seed_initial.sql`
 
 확인:
 
 ```sql
-USE law\\\_tracking\\\_db;
+USE law_tracking_db;
 
-SELECT COUNT(\\\*) AS law\\\_count
+SELECT COUNT(*) AS law_count
 FROM laws;
 
-SELECT COUNT(\\\*) AS administrative\\\_rule\\\_count
-FROM administrative\\\_rules;
+SELECT COUNT(*) AS administrative_rule_count
+FROM administrative_rules;
 ```
 
 정상 결과:
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 해당 부분은 일단 임의로 만들어본 부분이고 테스트도 안해본 상태
 
 ```bash
-python scripts/load\\\_full\\\_text.py
+python scripts/load_full_text.py
 ```
 
 실행 시 다음 정보를 입력합니다.
