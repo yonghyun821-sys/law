@@ -68,7 +68,7 @@ FROM administrative_rules;
 pip install -r requirements.txt
 ```
 
-## 전문 JSON 입력 (추가 및 정정 필요)
+## 전문 JSON 입력 (현재는 미구현 필드만 존재 / 내용 추가 및 정정 필요)
 
 
 
