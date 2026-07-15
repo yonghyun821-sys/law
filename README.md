@@ -222,7 +222,7 @@ Bootstrap MySQL Router for use with InnoDB Cluster
 
 홈 화면에 `Local instance MySQL80`이 보이면 클릭한 뒤 설치 과정에서 설정한 `root` 비밀번호를 입력합니다.
 
-연결 항목이 보이지 않으면 `MySQL Connections` 옆의 `+` 버튼을 누르고 다음과 같이 생성합니다.
+연결 항목이 보이지 않으면 `MySQL Connections` 옆의 `+` 버튼을 누르고 다음과 같이 생성합니다. (우상단에 X로 팝업창 다지워보기)
 
 ```text
 Connection Name: Local instance MySQL80
